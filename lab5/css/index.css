@@ -1,0 +1,51 @@
+ h1 {
+    text-align: center;
+    font-size: 24px;
+}
+p {
+    font-size: 120%;
+}
+a {
+    display: block;
+}
+a:nth-child(1):link {
+    color: rgb(253, 215, 215);
+}
+a:nth-child(2):link {
+    color: rgb(108, 231, 155);
+}
+a:nth-child(3):link {
+    color: rgb(180, 218, 15);
+}
+a:nth-child(4):link {
+    color: rgb(128, 40, 128);
+}
+a:nth-child(1):visited {
+    color: rgb(252, 57, 57);
+}
+a:nth-child(2):visited {
+    color: rgb(3, 146, 3);
+}
+a:nth-child(3):visited {
+    color: rgb(196, 21, 21);
+}
+a:nth-child(4):visited {
+    color: rgb(204, 97, 115);
+}
+
+@media (min-width: 993px) {
+    div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    a {
+        flex: 1 50%;
+    }
+}

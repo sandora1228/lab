@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+body > a:nth-child(2) {
+    font-style: italic;
+}
+h2 {
+    text-align: center;
+}
+table th {
+    text-align: center;
+    background-color: rgb(32, 197, 32);
+    color: white;
+    font-weight: bold;
+}
+table tr:nth-child(even) {
+    background-color: grey;
+}
+table *:not(caption){
+    border: 2px dashed rgb(51, 238, 26);
+    padding: 5px;
+    text-align: center;
+}
+table td:last-child {
+    text-align: right;
+}
+
+@media (min-width: 993px) {
+    th {
+        font-size: 130%;
+    }
+    td {
+        font-size: 120%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    th {
+        font-size: 120%;
+    }
+    td {
+        font-size: 110%;
+    }
+}
+
+@media (max-width: 768px) {
+    th {
+        font-size: 110%;
+    }
+}

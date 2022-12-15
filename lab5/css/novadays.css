@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+body > a:nth-child(2) {
+    font-style: italic;
+}
+h2 {
+    text-align: center;
+}
+/*.base-list > li:nth-child(odd){
+background-color: lightgrey;
+}*/
+.base-list ul > li:nth-child(odd){
+    background-color: rgb(128, 96, 96);
+}
+/*.base-list ul > li:nth-child(even){
+background-color: white;
+}*/
+ol ol > li:nth-child(3), ol ol > li:nth-child(5) {
+    cursor: pointer;
+}
+ol ol > li:nth-child(4) {
+    background-color: #28a090;
+}
+
+@media (min-width: 993px) {
+    .list-box {
+        display: flex;
+        justify-content: space-around;
+    }
+}
