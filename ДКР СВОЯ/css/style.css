@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.blok1{
+    border: 5px black solid;
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    display: inline-flex;
+    background-color: chartreuse;
+}
+.blok2{
+    border: 5px black solid;
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    display: inline-flex;
+    background-color: coral;
+}
+.blok3{
+    border: 5px black solid;
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    display: inline-flex;
+    background-color: crimson;
+}
+table th {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  
+  table *:not(caption){
+    border: 2px dashed rgb(0, 0, 0);
+    padding: 2px;
+    text-align: center;
+  }
+  table td:last-child {
+    text-align: right;
+  }
+  .tablitsa, .spisok, .tekst{
+    float: right ;
+    color: black;
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+  }
